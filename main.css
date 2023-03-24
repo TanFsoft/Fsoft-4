@@ -1,0 +1,1023 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.background {
+    background-image: url(./images/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    position: relative;
+}
+.background-text{
+    /* background-color: antiquewhite; */
+    position: absolute; 
+    top: 40%;
+    left: 35%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.background-text h1 {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+.background-text p{
+    font-weight: 700;
+}
+.background-text button {
+    color: white;
+    background-color: rgb(76, 76, 246);
+    padding: 8px 15px;
+    font-weight: 500;
+    
+}
+/* <!-- ---------text2--------- --> */
+.content {
+    /* background-color: rgb(58, 121, 176); */
+    height: 250px;
+    padding-top: 70px;
+}
+.text2{
+    /* background-color: aquamarine; */
+    text-align: center;
+    padding-left: 80px;
+
+}
+.text2 h2 {
+    font-weight: 700;
+    
+}
+.text2 button {
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+/* <!-- ---------what we offer--------- --> */
+.what{
+    background-color: #426082;
+}
+.what-text {
+    /* background-color: #159a88; */
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 50px;
+} 
+.what-text p {
+    color: #be861d;
+    font-weight: 500;
+}
+.what-text h2 {
+    color: rgb(240, 237, 233);
+    font-weight: 700;
+    font-size: 40px;
+}
+.responsive-row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 150px;
+   
+    
+}
+.fa-solid {
+    background-color: #f0f6f0;
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    padding-top: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.row1 {
+    text-align: center;
+
+}
+.row1 h5 {
+    color: white;
+}
+.row1 p {
+    color: #ccc;
+}
+/* -----------background2----- */
+.background2{
+    background-image: url(./images/bg-callout.jpg);
+}
+/* <!-- --------recent project--- --> */
+.recent {
+    width: 100%;
+    padding-bottom: 50px;
+    /* background-color: #be861d; */
+}
+.recent-content {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    /* background-color: #426082; */
+}
+.recent-img1 {
+   width: 50%;
+   position: relative;
+
+
+}
+.recent img {
+    width: 100%;
+}
+.recent-img2 {
+    width: 50%;
+    position: relative;
+}
+.recent-text {
+    /* background-color: #7c6844; */
+    position:absolute;
+    top: 60%;
+    left: 10%;
+    color: white;
+  
+}
+/* <!-- ---------The Butoon--------- --> */
+.what-text2 p{
+    color: white;
+    /* height: 100px; */
+
+}
+.buttons button {
+    color: white;
+    padding: 3px 15px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.buttons button:first-child {
+    background-color: white;
+    color: black;
+}
+.buttons button:last-child {
+    background-color: black;
+    color: white;
+}
+
+/* <!-- ---------MAP--------- --> */
+.map{
+    width: 100%;
+}
+.map img {
+    width: 100%;
+}
+/* ================footer1=========== */
+.footer1{
+    background-color: white;
+    height: 100px;
+    /* margin:auto; */
+    text-align: center;
+    padding-top: 20px;
+}
+.fa-brands{
+  /* padding-left: 20px; */
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  background-color: #426082;
+  border-radius: 50%;
+  padding-top: 7px;
+  margin-left: 10px;
+  color: white;
+}
+
+/* ================================RREONSPONSIVE=========== */
+
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    .background {
+        background-image: url(./images/bg-masthead.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        position: relative;
+    }
+    .background-text{
+        /* background-color: antiquewhite; */
+        position: absolute; 
+        top: 40%;
+        left: 15%;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .background-text h1 {
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    .background-text p{
+        font-weight: 700;
+    }
+    .background-text button {
+        color: white;
+        background-color: rgb(76, 76, 246);
+        padding: 8px 15px;
+        font-weight: 500;
+        
+    }
+    /* <!-- ---------text2--------- --> */
+    .content {
+        /* background-color: rgb(58, 121, 176); */
+        height: 350px;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* text-align: center; */
+    }
+    .text2{
+        /* background-color: aquamarine; */
+        text-align: center;
+        padding-left: 0px;
+    
+    }
+    .text2 h2 {
+        font-weight: 700;
+        
+    }
+    .text2 button {
+        color: white;
+        background-color: black;
+        font-weight: 500;
+        padding: 8px 15px;
+    }
+    /* <!-- ---------what we offer--------- --> */
+    .what{
+        background-color: #426082;
+    }
+    .what-text {
+        /* background-color: #159a88; */
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 50px;
+    } 
+    .what-text p {
+        color: #be861d;
+        font-weight: 500;
+    }
+    .what-text h2 {
+        color: rgb(240, 237, 233);
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .responsive-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+       
+        
+    }
+    .fa-solid {
+        background-color: #f0f6f0;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+        border-radius: 50%;
+        padding-top: 15px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .row1 {
+        text-align: center;
+    
+    }
+    .row1 h5 {
+        color: white;
+    }
+    .row1 p {
+        color: #ccc;
+    }
+    /* -----------background2----- */
+    .background2{
+        background-image: url(./images/bg-callout.jpg);
+    }
+    /* <!-- --------recent project--- --> */
+    .recent {
+        width: 100%;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #be861d; */
+    }
+    .recent-content {
+        width: 100%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #426082; */
+    }
+    .recent-img1 {
+       width: 100%;
+       position: relative;
+    
+    
+    }
+    .recent img {
+        width: 100%;
+    }
+    .recent-img2 {
+        width: 100%;
+        position: relative;
+    }
+    .recent-text {
+        /* background-color: #7c6844; */
+        position:absolute;
+        top: 40%;
+        left: 10%;
+        color: white;
+      
+    }
+    /* <!-- ---------The Butoon--------- --> */
+    .what-text2 p{
+        color: white;
+        /* height: 100px; */
+    
+    }
+    .buttons button {
+        color: white;
+        padding: 3px 15px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    .buttons button:first-child {
+        background-color: white;
+        color: black;
+    }
+    .buttons button:last-child {
+        background-color: black;
+        color: white;
+    }
+    
+    /* <!-- ---------MAP--------- --> */
+    .map{
+        width: 100%;
+    }
+    .map img {
+        width: 100%;
+    }
+    /* ================footer1=========== */
+    .footer1{
+        background-color: white;
+        height: 100px;
+        /* margin:auto; */
+        text-align: center;
+        padding-top: 20px;
+    }
+    .fa-brands{
+      /* padding-left: 20px; */
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      background-color: #426082;
+      border-radius: 50%;
+      padding-top: 7px;
+      margin-left: 10px;
+      color: white;
+      margin-bottom: 10px;
+    }
+    
+  }  
+  @media (min-width: 481px) and (max-width: 767px) {
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    .background {
+        background-image: url(./images/bg-masthead.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        position: relative;
+    }
+    .background-text{
+        /* background-color: antiquewhite; */
+        position: absolute; 
+        top: 40%;
+        left: 10%;
+        right: 10%;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .background-text h1 {
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    .background-text p{
+        font-weight: 700;
+    }
+    .background-text button {
+        color: white;
+        background-color: rgb(76, 76, 246);
+        padding: 8px 15px;
+        font-weight: 500;
+        
+    }
+    /* <!-- ---------text2--------- --> */
+    .content {
+        /* background-color: rgb(58, 121, 176); */
+        height: 350px;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* text-align: center; */
+    }
+    .text2{
+        /* background-color: aquamarine; */
+        text-align: center;
+        padding-left: 0px;
+    
+    }
+    .text2 h2 {
+        font-weight: 700;
+        
+    }
+    .text2 button {
+        color: white;
+        background-color: black;
+        font-weight: 500;
+        padding: 8px 15px;
+    }
+    /* <!-- ---------what we offer--------- --> */
+    .what{
+        background-color: #426082;
+    }
+    .what-text {
+        /* background-color: #159a88; */
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 50px;
+    } 
+    .what-text p {
+        color: #be861d;
+        font-weight: 500;
+    }
+    .what-text h2 {
+        color: rgb(240, 237, 233);
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .responsive-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+       
+        
+    }
+    .fa-solid {
+        background-color: #f0f6f0;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+        border-radius: 50%;
+        padding-top: 15px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .row1 {
+        text-align: center;
+    
+    }
+    .row1 h5 {
+        color: white;
+    }
+    .row1 p {
+        color: #ccc;
+    }
+    /* -----------background2----- */
+    .background2{
+        background-image: url(./images/bg-callout.jpg);
+    }
+    /* <!-- --------recent project--- --> */
+    .recent {
+        width: 100%;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #be861d; */
+    }
+    .recent-content {
+        width: 100%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #426082; */
+    }
+    .recent-img1 {
+       width: 100%;
+     
+       position: relative;
+    
+    
+    }
+    .recent img {
+        width: 100%;
+    }
+    .recent-img2 {
+        width: 100%;
+      
+
+        position: relative;
+    }
+    .recent-text {
+        /* background-color: #7c6844; */
+        position:absolute;
+        top: 40%;
+        left: 10%;
+        color: white;
+      
+    }
+    /* <!-- ---------The Butoon--------- --> */
+    .what-text2 p{
+        color: white;
+        /* height: 100px; */
+    
+    }
+    .buttons button {
+        color: white;
+        padding: 3px 15px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    .buttons button:first-child {
+        background-color: white;
+        color: black;
+    }
+    .buttons button:last-child {
+        background-color: black;
+        color: white;
+    }
+    
+    /* <!-- ---------MAP--------- --> */
+    .map{
+        width: 100%;
+    }
+    .map img {
+        width: 100%;
+    }
+    /* ================footer1=========== */
+    .footer1{
+        background-color: white;
+        height: 100px;
+        /* margin:auto; */
+        text-align: center;
+        padding-top: 20px;
+    }
+    .fa-brands{
+      /* padding-left: 20px; */
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      background-color: #426082;
+      border-radius: 50%;
+      padding-top: 7px;
+      margin-left: 10px;
+      color: white;
+      margin-bottom: 10px;
+    }
+  }
+    
+    /* CSS */
+    @media (min-width: 320px) and (max-width: 480px) {
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    .background {
+        background-image: url(./images/bg-masthead.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        position: relative;
+    }
+    .background-text{
+        /* background-color: antiquewhite; */
+        position: absolute; 
+        top: 40%;
+        left: 0%;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .background-text h1 {
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    .background-text p{
+        font-weight: 700;
+    }
+    .background-text button {
+        color: white;
+        background-color: rgb(76, 76, 246);
+        padding: 8px 15px;
+        font-weight: 500;
+        
+    }
+    /* <!-- ---------text2--------- --> */
+    .content {
+        /* background-color: rgb(58, 121, 176); */
+        height: 350px;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* text-align: center; */
+    }
+    .text2{
+        /* background-color: aquamarine; */
+        text-align: center;
+        padding-left: 0px;
+    
+    }
+    .text2 h2 {
+        font-weight: 700;
+        
+    }
+    .text2 button {
+        color: white;
+        background-color: black;
+        font-weight: 500;
+        padding: 8px 15px;
+    }
+    /* <!-- ---------what we offer--------- --> */
+    .what{
+        background-color: #426082;
+    }
+    .what-text {
+        /* background-color: #159a88; */
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 50px;
+    } 
+    .what-text p {
+        color: #be861d;
+        font-weight: 500;
+    }
+    .what-text h2 {
+        color: rgb(240, 237, 233);
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .responsive-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+       
+        
+    }
+    .fa-solid {
+        background-color: #f0f6f0;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+        border-radius: 50%;
+        padding-top: 15px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .row1 {
+        text-align: center;
+    
+    }
+    .row1 h5 {
+        color: white;
+    }
+    .row1 p {
+        color: #ccc;
+    }
+    /* -----------background2----- */
+    .background2{
+        background-image: url(./images/bg-callout.jpg);
+    }
+    /* <!-- --------recent project--- --> */
+    .recent {
+        width: 100%;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #be861d; */
+    }
+    .recent-content {
+        width: 100%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #426082; */
+    }
+    .recent-img1 {
+       width: 100%;
+     
+       position: relative;
+    
+    
+    }
+    .recent img {
+        width: 100%;
+    }
+    .recent-img2 {
+        width: 100%;
+      
+
+        position: relative;
+    }
+    .recent-text {
+        /* background-color: #7c6844; */
+        position:absolute;
+        top: 40%;
+        left: 10%;
+        color: white;
+      
+    }
+    /* <!-- ---------The Butoon--------- --> */
+    .what-text2 p{
+        color: white;
+        /* height: 100px; */
+    
+    }
+    .buttons button {
+        color: white;
+        padding: 3px 15px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    .buttons button:first-child {
+        background-color: white;
+        color: black;
+    }
+    .buttons button:last-child {
+        background-color: black;
+        color: white;
+    }
+    
+    /* <!-- ---------MAP--------- --> */
+    .map{
+        width: 100%;
+    }
+    .map img {
+        width: 100%;
+    }
+    /* ================footer1=========== */
+    .footer1{
+        background-color: white;
+        height: 100px;
+        /* margin:auto; */
+        text-align: center;
+        padding-top: 20px;
+    }
+    .fa-brands{
+      /* padding-left: 20px; */
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      background-color: #426082;
+      border-radius: 50%;
+      padding-top: 7px;
+      margin-left: 10px;
+      color: white;
+      margin-bottom: 10px;
+    }
+    
+  }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    *{
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;
+    }
+    .background {
+        background-image: url(./images/bg-masthead.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 70vh;
+        position: relative;
+    }
+    .background-text{
+        /* background-color: antiquewhite; */
+        position: absolute; 
+        top: 40%;
+        left: 0%;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+    .background-text h1 {
+        font-weight: 700;
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    .background-text p{
+        font-weight: 700;
+    }
+    .background-text button {
+        color: white;
+        background-color: rgb(76, 76, 246);
+        padding: 8px 15px;
+        font-weight: 500;
+        
+    }
+    /* <!-- ---------text2--------- --> */
+    .content {
+        /* background-color: rgb(58, 121, 176); */
+        height: 350px;
+        width: 100%;
+        padding-top: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+        /* text-align: center; */
+    }
+    .text2{
+        /* background-color: aquamarine; */
+        text-align: center;
+        padding-left: 0px;
+    
+    }
+    .text2 h2 {
+        font-weight: 700;
+        
+    }
+    .text2 button {
+        color: white;
+        background-color: black;
+        font-weight: 500;
+        padding: 8px 15px;
+    }
+    /* <!-- ---------what we offer--------- --> */
+    .what{
+        background-color: #426082;
+    }
+    .what-text {
+        /* background-color: #159a88; */
+        text-align: center;
+        padding-left: 0px;
+        padding-top: 50px;
+    } 
+    .what-text p {
+        color: #be861d;
+        font-weight: 500;
+    }
+    .what-text h2 {
+        color: rgb(240, 237, 233);
+        font-weight: 700;
+        font-size: 40px;
+    }
+    .responsive-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 30px 0px;
+       
+        
+    }
+    .fa-solid {
+        background-color: #f0f6f0;
+        height: 60px;
+        width: 60px;
+        font-size: 30px;
+        border-radius: 50%;
+        padding-top: 15px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+    .row1 {
+        text-align: center;
+    
+    }
+    .row1 h5 {
+        color: white;
+    }
+    .row1 p {
+        color: #ccc;
+    }
+    /* -----------background2----- */
+    .background2{
+        background-image: url(./images/bg-callout.jpg);
+    }
+    /* <!-- --------recent project--- --> */
+    .recent {
+        width: 100%;
+        padding-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #be861d; */
+    }
+    .recent-content {
+        width: 100%;
+        padding: 0 5%;
+        display: flex;
+        flex-direction: column;
+        /* background-color: #426082; */
+    }
+    .recent-img1 {
+       width: 100%;
+     
+       position: relative;
+    
+    
+    }
+    .recent img {
+        width: 100%;
+    }
+    .recent-img2 {
+        width: 100%;
+      
+
+        position: relative;
+    }
+    .recent-text {
+        /* background-color: #7c6844; */
+        position:absolute;
+        top: 40%;
+        left: 10%;
+        color: white;
+      
+    }
+    /* <!-- ---------The Butoon--------- --> */
+    .what-text2 p{
+        color: white;
+        /* height: 100px; */
+    
+    }
+    .buttons button {
+        color: white;
+        padding: 3px 15px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+    }
+    .buttons button:first-child {
+        background-color: white;
+        color: black;
+    }
+    .buttons button:last-child {
+        background-color: black;
+        color: white;
+    }
+    
+    /* <!-- ---------MAP--------- --> */
+    .map{
+        width: 100%;
+    }
+    .map img {
+        width: 100%;
+    }
+    /* ================footer1=========== */
+    .footer1{
+        background-color: white;
+        height: 100px;
+        /* margin:auto; */
+        text-align: center;
+        padding-top: 20px;
+    }
+    .fa-brands{
+      /* padding-left: 20px; */
+      height: 30px;
+      width: 30px;
+      text-align: center;
+      background-color: #426082;
+      border-radius: 50%;
+      padding-top: 7px;
+      margin-left: 10px;
+      color: white;
+      margin-bottom: 10px;
+    }
+    
+  }
